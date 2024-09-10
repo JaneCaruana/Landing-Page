@@ -1,10 +1,17 @@
+@media only screen and (max-width: 1760px) {
+    .hero__video {
+        height: 700px;
+    }
+}
 @media only screen and (max-width: 1600px) {
     .header_holder {
-
         width: 100%;
         justify-content: end;
         column-gap: 3rem;
-      }
+    }
+      .hero__video {
+        height: 650px;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .nav__menu ul {
@@ -50,6 +57,17 @@
         display: flex;
         flex-direction: column;
     }
+    .hero__title p {
+        width: 100%;
+    }
+    .hero__video__container {
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+    }
+    .hero__video {
+        height: 500px;
+      }
     
 }
 
@@ -96,6 +114,9 @@
     .header__nav {
         order: 1;
     }
+    .hero__video {
+        height: 500px;
+    }
     
 }
 
@@ -125,8 +146,8 @@
   }
   @media only screen and (max-width: 500px) {
     .hero__title h1 {
-        font-size: 2rem;
-        }
+        font-size: 2.8rem;
+      }
   }
 
 
